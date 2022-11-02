@@ -1,0 +1,29 @@
+@import "fonts";
+
+body{
+    font-family: appetite;
+    background-color: url("@img/tiger.jpeg") 0 0 no-repeat;
+    span{
+        color: red;
+    }
+    background: url("@img/yin-and-yang.jpg") 0 0 no-repeat;
+}
+@media (max-width: 768px){
+    span{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 768px){
+    body{
+        background-color: palevioletred;
+    }
+}
+@media (max-width: 768px){
+    div{
+        background: palevioletred;
+        color: aqua;
+        font-size: 50px;
+        font-weight: bold;
+    }
+}
